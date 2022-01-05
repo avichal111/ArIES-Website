@@ -1,0 +1,111 @@
+
+
+<head>
+  <meta charset="utf-8">
+  <title>ArIES</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+    
+  <!-- Favicons -->
+  <link href="/index/img/favicon.png" rel="icon">
+  <link href="/index/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="/index/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Libraries CSS Files -->
+  <link href="/index/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/index/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="/index/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="/index/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="/index/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="/index/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: NewBiz
+    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================rgb(0, 0, 0),   rgb(250, 250, 250);
+  Header
+  ============================-->
+
+  <header id="header" class="fixed-top">
+
+
+
+    <div class="container">
+
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="/" class="scrollto llp"><img src = "/index/img/favicon.png"><b>&nbspArIES</b></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          
+          <li><a href="/logout"><b>Logout</b></a></li>
+           
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+
+
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  
+  
+
+
+
+<div class="container">
+    <div class="row">
+        <h1 style="text-align: center">Add a new item</h1>
+        <div style="width: 30%; margin: 25px auto;">
+            <form action="/members/inventory/<%= id %>" method="POST">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="enr_no" placeholder="enrollment">
+                </div>
+                
+                <div class="form-group">
+                    <input class="form-control" type="text" name="quantity" placeholder="quantity">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="mobile" placeholder="mobile">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                </div>
+            </form>
+            <a href="/members/inventory">Go Back</a>
+        </div>
+    </div>
+</div>

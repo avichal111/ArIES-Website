@@ -1485,6 +1485,12 @@ h6 {
   }
 }
 
+@media (max-width: 575px){
+  .portfolio-container{
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 991px){
   #services{
     text-align: center;

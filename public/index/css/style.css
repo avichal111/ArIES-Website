@@ -1495,6 +1495,20 @@ h6 {
   }
 }
 
+@media (max-width: 400px){
+  .project-margin{
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 450px){
+  .project-margin{
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+}
+
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;

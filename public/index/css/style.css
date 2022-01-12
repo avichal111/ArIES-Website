@@ -1489,6 +1489,12 @@ h6 {
   }
 }
 
+@media (max-width: 991px){
+  .mb-5{
+    margin-top: 10rem;
+  }
+}
+
 @media (max-width: 575px){
   .portfolio-extra{
     margin-left: 0px;
